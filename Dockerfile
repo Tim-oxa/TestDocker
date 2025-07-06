@@ -7,4 +7,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 EXPOSE 116
 
-CMD ["/usr/local/bin/python3", "main.py"]
+CMD ["python3", "main.py"]
